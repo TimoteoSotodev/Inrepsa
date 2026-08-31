@@ -1,0 +1,16 @@
+{
+  "name": "INREPSA",
+  "short_name": "INREPSA",
+  "description": "Invernaderos de alta tecnología (partner Priva) y compostaje industrial (Iruña Composting) en México.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f7a54",
+  "icons": [
+    {
+      "src": "/assets/favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

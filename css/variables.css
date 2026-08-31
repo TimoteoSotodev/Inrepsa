@@ -1,0 +1,56 @@
+/*
+  INREPSA — Variables de marca
+  Cambia estos valores para ajustar la paleta de colores y tipografía
+  de todo el sitio sin tocar ningún otro archivo.
+*/
+
+:root {
+  /* Colores primarios */
+  --color-primary: #1f7a54;        /* Verde tecnológico / sustentable */
+  --color-primary-dark: #14523a;
+  --color-primary-light: #e6f2ec;
+
+  /* Colores secundarios */
+  --color-secondary: #1c2b3a;      /* Azul-gris oscuro / tecnología */
+  --color-secondary-light: #2f4256;
+
+  /* Acento (CTAs) */
+  --color-accent: #e8862e;         /* Ámbar cálido */
+  --color-accent-hover: #c96f1f;
+
+  /* Neutros */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f4f7f5;
+  --color-text: #1a1f1d;
+  --color-text-muted: #5b665f;
+  --color-border: #e1e6e2;
+  --color-white: #ffffff;
+
+  /* Estados */
+  --color-success: #1f7a54;
+  --color-error: #c0392b;
+
+  /* Tipografía */
+  --font-heading: "Sora", "Segoe UI", Arial, sans-serif;
+  --font-body: "Inter", "Segoe UI", Arial, sans-serif;
+
+  /* Espaciado */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+
+  /* Layout */
+  --container-max: 1200px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-sm: 0 1px 3px rgba(28, 43, 58, 0.08);
+  --shadow-md: 0 8px 24px rgba(28, 43, 58, 0.12);
+  --shadow-lg: 0 16px 40px rgba(28, 43, 58, 0.16);
+
+  /* Transiciones */
+  --transition: 0.2s ease;
+}

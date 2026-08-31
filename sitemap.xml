@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.inrepsa.mx/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/nosotros</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/nosotros"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/nosotros"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/nosotros"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/nosotros"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/invernaderos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/invernaderos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/greenhouses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/invernaderos"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/greenhouses</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/invernaderos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/greenhouses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/invernaderos"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/compostaje</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/compostaje"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/composting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/compostaje"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/composting</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/compostaje"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/composting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/compostaje"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/casos-de-exito</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/casos-de-exito"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/success-stories"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/casos-de-exito"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/success-stories</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/casos-de-exito"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/success-stories"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/casos-de-exito"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/blog</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/blog"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/blog"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/blog/beneficios-automatizacion-invernaderos-priva</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/blog/beneficios-automatizacion-invernaderos-priva"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/blog/benefits-greenhouse-automation-priva"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/blog/beneficios-automatizacion-invernaderos-priva"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/blog/benefits-greenhouse-automation-priva</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/blog/beneficios-automatizacion-invernaderos-priva"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/blog/benefits-greenhouse-automation-priva"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/blog/beneficios-automatizacion-invernaderos-priva"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/blog/como-reducir-costos-gestion-residuos-organicos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/blog/como-reducir-costos-gestion-residuos-organicos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/blog/how-to-reduce-organic-waste-management-costs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/blog/como-reducir-costos-gestion-residuos-organicos"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/blog/how-to-reduce-organic-waste-management-costs</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/blog/como-reducir-costos-gestion-residuos-organicos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/blog/how-to-reduce-organic-waste-management-costs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/blog/como-reducir-costos-gestion-residuos-organicos"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/blog/compostaje-en-origen-que-es-y-por-que-importa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/blog/compostaje-en-origen-que-es-y-por-que-importa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/blog/on-site-composting-what-it-is-why-it-matters"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/blog/compostaje-en-origen-que-es-y-por-que-importa"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/blog/on-site-composting-what-it-is-why-it-matters</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/blog/compostaje-en-origen-que-es-y-por-que-importa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/blog/on-site-composting-what-it-is-why-it-matters"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/blog/compostaje-en-origen-que-es-y-por-que-importa"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.inrepsa.mx/contacto</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/contacto"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.inrepsa.mx/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.inrepsa.mx/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inrepsa.mx/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inrepsa.mx/contacto"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
