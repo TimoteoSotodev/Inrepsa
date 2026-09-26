@@ -83,7 +83,6 @@ button { font-family: inherit; }
   top: 0;
   z-index: 100;
   background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: saturate(180%) blur(8px);
   border-bottom: 1px solid var(--color-border);
 }
 .header-inner {
@@ -113,6 +112,7 @@ button { font-family: inherit; }
 }
 
 .header-actions { display: flex; align-items: center; gap: var(--space-sm); }
+.header-actions-mobile { display: none; }
 .lang-switch { display: flex; gap: 0.3rem; font-size: 0.85rem; font-weight: 700; }
 .lang-switch a {
   padding: 0.3rem 0.55rem;
@@ -216,6 +216,21 @@ button { font-family: inherit; }
 .trust-strip { display: flex; align-items: center; justify-content: center; gap: var(--space-xl); flex-wrap: wrap; padding: var(--space-lg) 0; }
 .trust-item { text-align: center; opacity: 0.85; }
 .trust-item strong { display: block; font-family: var(--font-heading); }
+
+.partner-badge {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.6rem 1.1rem;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+.partner-badge img { height: 26px; width: auto; display: block; }
+.partner-badge span { font-weight: 700; font-size: 0.85rem; color: var(--color-secondary); white-space: nowrap; }
 
 .logos-row { display: flex; flex-wrap: wrap; gap: var(--space-lg); align-items: center; justify-content: center; }
 .logo-placeholder {
@@ -357,9 +372,9 @@ button { font-family: inherit; }
   .main-nav.is-open { transform: translateX(0); }
   .main-nav ul { flex-direction: column; gap: 0; }
   .main-nav a { display: block; padding: 0.9rem 0; border-bottom: 1px solid var(--color-border); }
-  .main-nav .header-actions-mobile { margin-top: var(--space-md); }
+  .main-nav .header-actions-mobile { display: block; margin-top: var(--space-md); }
   .nav-toggle { display: block; }
-  .header-actions .lang-switch { display: none; }
+  .header-actions .lang-switch, .header-actions .btn-primary { display: none; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .pillars { grid-template-columns: 1fr; }
   .machine-specs { grid-template-columns: 1fr 1fr; }

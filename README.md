@@ -1,6 +1,6 @@
 # INREPSA — Sitio web
 
-Sitio web estático (HTML5, CSS3 y JavaScript vanilla, sin frameworks), bilingüe español/inglés, con SEO técnico, para **INREPSA**: partner oficial de **Priva** (equipo de invernadero de alta tecnología) y distribuidor en México de las compostadoras industriales **Iruña Composting**.
+Sitio web estático (HTML5, CSS3 y JavaScript vanilla, sin frameworks), bilingüe español/inglés, con SEO técnico, para **INREPSA**: partner oficial de **Priva** (automatización de invernaderos: climatización, riego y monitoreo, sobre invernaderos ya construidos) y distribuidor en México de las compostadoras industriales **Iruña Composting**.
 
 ## Estructura del proyecto
 
