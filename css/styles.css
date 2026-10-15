@@ -356,27 +356,66 @@ button { font-family: inherit; }
 .credential-item svg { width: 22px; height: 22px; stroke: var(--color-green-700); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
 
 /* ---------- Máquinas de compostaje ---------- */
+.modelos-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: stretch;
+}
 .machine-card {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--space-lg);
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  min-width: 0;
+  height: 100%;
+  box-sizing: border-box;
   background: var(--color-surface);
 }
+.machine-card > * { min-width: 0; }
 .machine-card .machine-figure {
   display: flex; align-items: baseline; gap: 0.4rem;
   font-family: var(--font-display); font-weight: 700;
   color: var(--color-green-700);
 }
-.machine-card .machine-figure .num { font-size: 2.5rem; line-height: 1; letter-spacing: -0.02em; }
+.machine-card .machine-figure .num { font-size: clamp(1.75rem, 3vw, 2.5rem); line-height: 1; letter-spacing: -0.02em; }
 .machine-card .machine-figure .unit { font-size: 0.95rem; color: var(--color-muted); font-family: var(--font-body); font-weight: 600; }
-.machine-card h3 { font-size: 1.5rem; color: var(--color-ink-900); }
-.machine-specs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; margin: var(--space-sm) 0; }
-.machine-specs div { background: var(--color-ground); border-radius: var(--radius-sm); padding: 0.6rem 0.8rem; }
-.machine-specs dt { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-muted); }
-.machine-specs dd { margin: 0; font-weight: 700; font-family: var(--font-display); }
+.machine-card h3 { font-size: 1.5rem; color: var(--color-ink-900); margin: 0.6rem 0 0; }
+.machine-card .machine-desc { color: var(--color-muted); font-size: 0.9375rem; line-height: 1.6; margin: 0.75rem 0 0; }
+.machine-specs { margin: 0; margin-top: auto; padding-top: var(--space-sm); }
+.machine-specs .spec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.65rem 0;
+  border-top: 1px solid var(--color-border);
+}
+.machine-specs dt {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  min-width: 0;
+}
+.machine-specs dd {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  color: var(--color-ink-900);
+  text-align: right;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.machine-card .btn {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: var(--space-md);
+  white-space: normal;
+  text-align: center;
+  line-height: 1.25;
+}
+.machine-card .btn[aria-disabled="true"] { cursor: default; }
 
 /* ---------- Testimoniales / Casos de éxito ---------- */
 .testimonial {
@@ -507,7 +546,7 @@ button { font-family: inherit; }
 @media (max-width: 960px) {
   .hero-grid, .hero-split { grid-template-columns: 1fr; }
   .hero-media { order: -1; max-width: 420px; margin: 0 auto; }
-  .grid-3, .grid-4, .benefit-grid, .solutions-grid, .scope-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-3, .benefit-grid, .solutions-grid, .scope-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .form-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .mobile-order-2 { order: 2; }
@@ -522,8 +561,7 @@ button { font-family: inherit; }
   .main-nav .header-actions-mobile { display: block; margin-top: var(--space-md); }
   .nav-toggle { display: block; }
   .header-actions .lang-switch, .header-actions .btn-primary { display: none; }
-  .grid-2, .grid-3, .grid-4, .benefit-grid, .solutions-grid, .scope-grid, .pillars { grid-template-columns: 1fr; }
-  .machine-specs { grid-template-columns: 1fr 1fr; }
+  .grid-2, .grid-3, .benefit-grid, .solutions-grid, .scope-grid, .pillars { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   .not-found .code { font-size: 4rem; }
   .topbar-inner { justify-content: center; }
