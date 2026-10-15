@@ -4,35 +4,98 @@
   de todo el sitio sin tocar ningún otro archivo.
 */
 
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/red-hat-display-600.woff2?v=20261014') format('woff2');
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/red-hat-display-700.woff2?v=20261014') format('woff2');
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/assets/fonts/red-hat-display-800.woff2?v=20261014') format('woff2');
+}
+@font-face {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/red-hat-text-400.woff2?v=20261014') format('woff2');
+}
+@font-face {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/red-hat-text-500.woff2?v=20261014') format('woff2');
+}
+@font-face {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/red-hat-text-600.woff2?v=20261014') format('woff2');
+}
+
 :root {
-  /* Colores primarios */
-  --color-primary: #1f7a54;        /* Verde tecnológico / sustentable */
-  --color-primary-dark: #14523a;
-  --color-primary-light: #e6f2ec;
+  /* Verdes */
+  --color-forest-900: #0F3A24;   /* héroes, bandas oscuras, barra superior */
+  --color-forest-800: #164A2F;   /* panel de ilustración en héroe de Inicio */
+  --color-green-700:  #1B5A38;   /* color primario: botones, enlaces, acentos */
+  --color-green-500:  #2F7A52;   /* líneas e ilustraciones sobre oscuro */
+  --color-ink-900:    #15241B;   /* texto principal y footer */
 
-  /* Colores secundarios */
-  --color-secondary: #1c2b3a;      /* Azul-gris oscuro / tecnología */
-  --color-secondary-light: #2f4256;
-
-  /* Acento (CTAs) */
-  --color-accent: #e8862e;         /* Ámbar cálido */
-  --color-accent-hover: #c96f1f;
+  /* Acento */
+  --color-lime-400:   #C6D63A;   /* único acento: botones sobre oscuro, cifras, detalles */
+  --color-lime-100:   #E9F0D2;   /* etiquetas/chips claros */
 
   /* Neutros */
-  --color-bg: #ffffff;
-  --color-bg-alt: #f4f7f5;
-  --color-text: #1a1f1d;
-  --color-text-muted: #5b665f;
-  --color-border: #e1e6e2;
-  --color-white: #ffffff;
+  --color-ground:     #F6F4EE;   /* fondo de página (crema) */
+  --color-surface:    #FFFFFF;   /* tarjetas y header */
+  --color-border:     #E4E1D6;
+  --color-muted:      #55635A;   /* texto secundario sobre claro */
 
-  /* Estados */
-  --color-success: #1f7a54;
-  --color-error: #c0392b;
+  /* Texto sobre oscuro */
+  --color-on-dark:        #FFFFFF;
+  --color-on-dark-soft:   #CFE0D3;
+  --color-on-dark-softer: #D6E6DA;
+  --color-footer-text:    #B9C7BD;
+  --color-footer-line:    #2A3B31;
+
+  /* Marca externa */
+  --color-whatsapp:   #25D366;
+
+  /* Compatibilidad con nombres anteriores usados en el markup existente */
+  --color-primary: var(--color-green-700);
+  --color-primary-dark: var(--color-forest-900);
+  --color-primary-light: var(--color-lime-100);
+  --color-secondary: var(--color-ink-900);
+  --color-secondary-light: var(--color-forest-800);
+  --color-accent: var(--color-lime-400);
+  --color-accent-hover: #b4c32f;
+  --color-bg: var(--color-surface);
+  --color-bg-alt: var(--color-ground);
+  --color-text: var(--color-ink-900);
+  --color-text-muted: var(--color-muted);
+  --color-white: var(--color-surface);
+  --color-success: var(--color-green-700);
+  --color-error: #B3261E;
 
   /* Tipografía */
-  --font-heading: "Sora", "Segoe UI", Arial, sans-serif;
-  --font-body: "Inter", "Segoe UI", Arial, sans-serif;
+  --font-display: 'Red Hat Display', system-ui, sans-serif;
+  --font-body: 'Red Hat Text', system-ui, sans-serif;
+  --font-heading: var(--font-display);
+  --font-body-fallback: var(--font-body);
 
   /* Espaciado */
   --space-xs: 0.5rem;
@@ -44,13 +107,19 @@
 
   /* Layout */
   --container-max: 1200px;
-  --radius-sm: 6px;
-  --radius-md: 12px;
+  --container: var(--container-max);
+  --gutter: 32px;
+  --section-y: 96px;
+  --section-y-mobile: 56px;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
   --radius-lg: 20px;
-  --shadow-sm: 0 1px 3px rgba(28, 43, 58, 0.08);
-  --shadow-md: 0 8px 24px rgba(28, 43, 58, 0.12);
-  --shadow-lg: 0 16px 40px rgba(28, 43, 58, 0.16);
+  --shadow-sm: 0 1px 3px rgba(15, 58, 36, 0.08);
+  --shadow-md: 0 8px 24px rgba(15, 58, 36, 0.12);
+  --shadow-lg: 0 16px 40px rgba(15, 58, 36, 0.16);
 
   /* Transiciones */
   --transition: 0.2s ease;
+  --transition-md: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }

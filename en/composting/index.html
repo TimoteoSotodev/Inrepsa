@@ -24,11 +24,10 @@
 <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg">
 <link rel="apple-touch-icon" href="/assets/favicon/favicon.svg">
 <link rel="manifest" href="/assets/favicon/site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/variables.css?v=20260926">
-<link rel="stylesheet" href="/css/styles.css?v=20260926">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/red-hat-display-800.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/red-hat-text-400.woff2" crossorigin>
+<link rel="stylesheet" href="/css/variables.css?v=20261014">
+<link rel="stylesheet" href="/css/styles.css?v=20261014">
 
 <script type="application/ld+json">
 {
@@ -84,6 +83,12 @@
 
 <a class="skip-link" href="#main">Skip to main content</a>
 
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span>Coverage across Mexico · Querétaro headquarters</span>
+    <span class="topbar-contact"><a href="tel:+524421560460">+52 442 156 0460</a><a href="mailto:alfredo@inrepsa.onmicrosoft.com" class="topbar-email">alfredo@inrepsa.onmicrosoft.com</a></span>
+  </div>
+</div>
 <header class="site-header">
   <div class="container header-inner">
     <a class="logo" href="/en/" aria-label="INREPSA - Home">
@@ -95,7 +100,6 @@
         <li><a href="/en/about">About</a></li>
         <li><a href="/en/greenhouses">Greenhouses</a></li>
         <li><a href="/en/composting" aria-current="page">Composting</a></li>
-        <li><a href="/en/success-stories">Success Stories</a></li>
         <li><a href="/en/blog">Blog</a></li>
         <li><a href="/en/contact">Contact</a></li>
       </ul>
@@ -125,12 +129,24 @@
     <a href="/en/">Home</a><span aria-hidden="true">/</span><span>Industrial Composting</span>
   </div>
 
-  <section class="section" style="padding-top:var(--space-lg)">
-    <div class="container">
-      <div class="section-head">
+  <section class="hero hero-light">
+    <div class="container hero-split" style="padding:56px 0">
+      <div>
         <p class="eyebrow">Industrial composting</p>
         <h1>Iruña industrial composters: cut organic waste by up to 90%</h1>
-        <p class="lead">We represent <strong>Iruña Composting</strong> in Mexico (Grupo Iruña, Spain, 50+ years of experience, ISO 9001 and ISO 14001). Their electromechanical pre-composters turn organic waste into stable pre-compost right at the point of generation — ideal for hotels, restaurants, supermarkets, cafeterias, municipal governments and shopping centers.</p>
+        <p class="lead">We represent <strong>Iruña Composting</strong> in Mexico (Grupo Iruña, Spain, 50+ years of experience, ISO 9001 and ISO 14001). Their electromechanical pre-composters turn organic waste into stable pre-compost right at the point of generation, ideal for hotels, restaurants, supermarkets, cafeterias, municipal governments and shopping centers.</p>
+      </div>
+      <div class="hero-media">
+        <svg viewBox="0 0 520 440" aria-hidden="true">
+          <circle cx="260" cy="210" r="170" fill="none" stroke="#2F7A52" stroke-width="2"/>
+          <circle cx="260" cy="210" r="120" fill="none" stroke="#2F7A52" stroke-width="2"/>
+          <circle cx="260" cy="210" r="170" fill="none" stroke="#C6D63A" stroke-width="12" stroke-linecap="round" stroke-dasharray="961 107" transform="rotate(-90 260 210)"/>
+          <text x="260" y="215" text-anchor="middle" font-family="Red Hat Display, sans-serif" font-size="68" font-weight="700" fill="#C6D63A">80-90%</text>
+          <text x="260" y="250" text-anchor="middle" font-family="Red Hat Text, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF">less waste volume</text>
+          <g font-family="Red Hat Text, sans-serif" font-size="15" font-weight="600" fill="#CFE0D3">
+            <text x="48" y="420">Generated</text><text x="216" y="420">Composted</text><text x="392" y="420">Reduced</text>
+          </g>
+        </svg>
       </div>
     </div>
   </section>
@@ -144,8 +160,7 @@
       <div class="grid grid-4">
 
         <article class="machine-card">
-          <!-- REPLACE: real photo of the IC-10 composter -->
-          <img src="/assets/img/compostaje/ic-10.jpg" alt="Iruña IC-10 industrial composter" width="300" height="220" loading="lazy" style="border-radius:var(--radius-sm)">
+          <div class="machine-figure"><span class="num">35</span><span class="unit">kg / day</span></div>
           <h3>IC-10</h3>
           <p>Ideal for small businesses: restaurants and cafeterias.</p>
           <dl class="machine-specs">
@@ -154,12 +169,11 @@
             <div><dt>Dimensions</dt><dd>1230×650×890 mm</dd></div>
             <div><dt>Certification</dt><dd>ISO 9001/14001</dd></div>
           </dl>
-          <a class="btn btn-outline" style="color:var(--color-secondary);border-color:var(--color-border)" href="/assets/fichas/IC-10.pdf" target="_blank" rel="noopener">Download datasheet (PDF)</a>
+          <a class="btn btn-outline" href="/assets/fichas/IC-10.pdf" target="_blank" rel="noopener">Download datasheet (PDF)</a>
         </article>
 
         <article class="machine-card">
-          <!-- REPLACE: real photo of the IC-30 composter -->
-          <img src="/assets/img/compostaje/ic-30.jpg" alt="Iruña IC-30 industrial composter" width="300" height="220" loading="lazy" style="border-radius:var(--radius-sm)">
+          <div class="machine-figure"><span class="num">75</span><span class="unit">kg / day</span></div>
           <h3>IC-30</h3>
           <p>For mid-sized hotels and restaurant chains.</p>
           <dl class="machine-specs">
@@ -168,12 +182,11 @@
             <div><dt>Dimensions</dt><dd>1900×860×1100 mm</dd></div>
             <div><dt>Certification</dt><dd>ISO 9001/14001</dd></div>
           </dl>
-          <a class="btn btn-outline" style="color:var(--color-secondary);border-color:var(--color-border)" href="/assets/fichas/IC-30.pdf" target="_blank" rel="noopener">Download datasheet (PDF)</a>
+          <a class="btn btn-outline" href="/assets/fichas/IC-30.pdf" target="_blank" rel="noopener">Download datasheet (PDF)</a>
         </article>
 
         <article class="machine-card">
-          <!-- REPLACE: real photo of the IC-50 composter -->
-          <img src="/assets/img/compostaje/ic-50.jpg" alt="Iruña IC-50 industrial composter" width="300" height="220" loading="lazy" style="border-radius:var(--radius-sm)">
+          <div class="machine-figure"><span class="num">125</span><span class="unit">kg / day</span></div>
           <h3>IC-50</h3>
           <p>For supermarkets and large hotels.</p>
           <dl class="machine-specs">
@@ -182,12 +195,11 @@
             <div><dt>Dimensions</dt><dd>2100×962×1300 mm</dd></div>
             <div><dt>Certification</dt><dd>ISO 9001/14001</dd></div>
           </dl>
-          <a class="btn btn-outline" style="color:var(--color-secondary);border-color:var(--color-border)" href="/assets/fichas/IC-50.pdf" target="_blank" rel="noopener">Download datasheet (PDF)</a>
+          <a class="btn btn-outline" href="/assets/fichas/IC-50.pdf" target="_blank" rel="noopener">Download datasheet (PDF)</a>
         </article>
 
         <article class="machine-card">
-          <!-- REPLACE: real photo of the IC-100 composter -->
-          <img src="/assets/img/compostaje/ic-100.jpg" alt="Iruña IC-100 industrial composter" width="300" height="220" loading="lazy" style="border-radius:var(--radius-sm)">
+          <div class="machine-figure"><span class="num">250</span><span class="unit">kg / day</span></div>
           <h3>IC-100</h3>
           <p>For municipal governments, shopping centers and large volumes.</p>
           <dl class="machine-specs">
@@ -196,7 +208,7 @@
             <div><dt>Dimensions</dt><dd>3000×1162×1500 mm</dd></div>
             <div><dt>Certification</dt><dd>ISO 9001/14001</dd></div>
           </dl>
-          <a class="btn btn-outline" style="color:var(--color-secondary);border-color:var(--color-border)" href="/assets/fichas/IC-100.pdf" target="_blank" rel="noopener">Download datasheet (PDF)</a>
+          <a class="btn btn-outline" href="/assets/fichas/IC-100.pdf" target="_blank" rel="noopener">Download datasheet (PDF)</a>
         </article>
 
       </div>
@@ -207,22 +219,21 @@
   <section class="section">
     <div class="container">
       <div class="section-head center">
-        <p class="eyebrow">Benefits</p>
         <h2>Why install an Iruña composter</h2>
       </div>
-      <div class="grid grid-3">
+      <div class="grid benefit-grid">
         <div class="card">
-          <div class="card-icon">↓</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v13"/><path d="M6 12l6 6 6-6"/></svg></div>
           <h3>Up to 90% less volume</h3>
           <p>Drastically reduce the volume of your organic waste, producing stable pre-compost in just a few days.</p>
         </div>
         <div class="card">
-          <div class="card-icon">💰</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="7" rx="7" ry="3"/><path d="M5 7v5c0 1.7 3.1 3 7 3s7-1.3 7-3V7"/><path d="M5 12v5c0 1.7 3.1 3 7 3s7-1.3 7-3v-5"/></svg></div>
           <h3>Waste management savings</h3>
           <p>Fewer collection trips and lower tonnage fees sent to landfill.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🌍</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 20c7 0 13-5 13-14 0 0-9-1-13 5-3 4-2 9 0 9z"/><path d="M5 20c0-4 2-8 6-11"/></svg></div>
           <h3>Environmental commitment</h3>
           <p>Give your business tangible proof of sustainability and a reduced organic waste footprint.</p>
         </div>
@@ -259,7 +270,6 @@
       <a href="/en/greenhouses#climate-control">Climate control</a>
       <a href="/en/greenhouses#irrigation">Irrigation</a>
       <a href="/en/composting#machines">IC composters</a>
-      <a href="/en/success-stories">Success stories</a>
     </div>
     <div>
       <h4>Contact</h4>
@@ -279,6 +289,6 @@
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.4 7.6 9.2 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.5 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.5 1 1-3.4-.2-.3C3.5 14.7 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg>
 </a>
 
-<script src="/js/main.js?v=20260926" defer></script>
+<script src="/js/main.js?v=20261014" defer></script>
 </body>
 </html>
